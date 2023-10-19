@@ -49,7 +49,7 @@ body {
 
 .container__botao2 {
     background-color: transparent;
-    border: 2px solid var(--cor-primaria);
+    border: 2px solid var(--cor-terciaria);
 }
 
 .container__aviso {
@@ -72,6 +72,7 @@ body {
 
 .secundario__imagem {
     width: 80%;
+    padding-left: 5px;
 }
 
 .secundario {
@@ -153,6 +154,8 @@ body {
 }
 
 .container__botao:hover {
-    background-color: var(--cor-botao);
+    background-color: red;
+    transition-duration: 0.4s;
     color: var(--cor-fundo);
+    font-size: 13px;
 }
